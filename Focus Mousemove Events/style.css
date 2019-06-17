@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow: hidden;
+	background: url(blur.jpg);
+	cursor: none;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#cursor {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: url(normal.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	
+	border-radius: 50%;
+}
