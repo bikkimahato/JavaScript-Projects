@@ -1,0 +1,131 @@
+body{
+  padding: 0;
+  margin: 50px 50px;
+}
+
+.top-part{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.my-name {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.designation {
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: font-size .5s, color .5s;
+}
+.designation:hover {
+  font-size: 1.2em;
+  color: dodgerblue;
+}
+
+.my-image {
+  background: url(bikki_img1.jpg);
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  transition: width .5s, height .5s;
+}
+
+.my-image:hover {
+  width: 200px;
+  height: 200px;
+}
+
+.contacts {
+  flex-basis: 25%;
+  flex-grow: 0;
+  word-wrap: break-word;
+  max-width: 25%;
+}
+
+.mail-me {
+  text-decoration: none;
+  color:black;
+}
+.contacts > p > a {
+  text-decoration: none;
+  color: black;
+}
+
+.experience {
+  color: dodgerblue;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.organization {
+  font-size: 1.2em;
+}
+
+.work-date {
+  margin-top: 10px;
+}
+
+.summary-section {
+  flex-basis: 25%;
+  color: dodgerblue;
+}
+
+.summary-paragragh {
+  margin-top: 20px;
+  color: black;
+}
+
+.main-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projects-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.project-list {
+  flex-basis: 50%;
+}
+
+.skills-section{
+  color: dodgerblue;
+  flex-basis: 25%;
+}
+
+.skills{
+  color: black;
+}
+
+.education-awards-section{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.awards-section {
+  flex-basis: 25%;
+}
+
+.education-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.education-list > li {
+  margin-top: 30px;
+  font-size: 1.2em;
+}
+
+div > div > ul dl {
+  margin-top: 5px;
+}
