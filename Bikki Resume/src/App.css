@@ -42,7 +42,7 @@ body{
   flex-basis: 25%;
   flex-grow: 0;
   word-wrap: break-word;
-  max-width: 25%;
+  width: 25%;
 }
 
 .mail-me {
@@ -128,4 +128,17 @@ body{
 
 div > div > ul dl {
   margin-top: 5px;
+}
+
+@media only screen and (max-width: 425px) {
+.top-part{
+  flex-direction: column;
+}
+.contacts{
+  width: 100%;
+  
+}
+.main-content{
+  flex-direction: column;
+}
 }
