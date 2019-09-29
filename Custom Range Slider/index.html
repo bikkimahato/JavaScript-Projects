@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Custom Range Slider</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div>
+        <span id='rangeValue'>0</span>
+        <input class='range' type='range' name="" min='0' max='1000' value='0' onchange="rangeHandler(this.value)" 
+        onmousemove="rangeHandler(this.value)"/>
+    </div>
+</body>
+<script type="text/javascript">
+    function rangeHandler(value) {
+        document.getElementById('rangeValue').innerHTML = value;
+    }
+</script>
+
+</html>
